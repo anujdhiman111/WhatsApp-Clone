@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.mainChatSection{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.usersSection{
+  border-right: 1px solid darkgray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.chatHeader{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #292b2c;
+    padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.UserAccount img{
+  width: 45px; 
 }
 
-.App-link {
-  color: #61dafb;
+.iconsGroup{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px 0px;
+  text-align: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chatSearchSection{
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 5% 95%;
+  background-color: lightslategrey;
+  border-bottom: 1px solid #4b3030
+}
+
+.chatSearchSection input{
+  border: none;
+  padding: 6px 10px;
+  border-radius: 14px;
+}
+
+.chatSearchSection input:active{
+  outline: none;
+}
+
+.chatSearchSection img{
+  padding-top: 4px;
+}
+
+.chatsSection{
+  background-image: url("assets/whatsappWeb.png");
 }
