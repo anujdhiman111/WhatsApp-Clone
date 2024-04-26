@@ -1,0 +1,327 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: cursive
+}
+.root{
+  position: relative;
+}
+
+.main{
+  height: 100vh;
+  /* background-color: #00A783; */
+  background-image: linear-gradient(to top, #8c9d8d, #00A783);
+
+
+}
+
+/* .header{
+  min-height: 28%;
+  color: antiquewhite;
+  font-family: monospace;
+  padding: 15px 20px;
+} */
+
+/* .authentication{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: whitesmoke;
+} */
+
+/* .authLink{
+  padding: 0px 15px;
+}
+
+.qrScanner img{
+  width: 100%;
+  height: 100%;
+}
+
+.linksSection{
+  min-height: 50px;
+  text-align: center;
+  padding: 30px 10px 0px;
+} */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  width: 100%;
+  /* max-width: 500px; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.headerHeading {
+  margin-bottom: 10px;
+}
+
+.headerSubtext {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.authHeading {
+  margin-bottom: 20px;
+}
+
+.signupButton,
+.loginButton {
+  padding: 12px 40px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.signupButton:hover,
+.loginButton:hover {
+  background-color: #0056b3;
+}
+
+.linksSection {
+  margin-top: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: azure;
+  font-weight: 600;
+  padding: 0px 5px;
+}
+
+.mainChatSection{
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  min-height: 100vh;
+  background-color: darkgray;
+}
+
+.usersSection{
+  display: grid;
+  grid-template-rows: 10% 8% 82%;
+  border-right: 1px solid darkgray;
+}
+
+.chatHeader{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #496363;
+  padding: 10px;
+}
+
+.UserAccount img{
+  width: 45px; 
+}
+
+.iconsGroup{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px 0px;
+  text-align: right;
+}
+
+.chatSearchSection{
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 5% 95%;
+  background-color: lightslategrey;
+  border-bottom: 1px solid #4b3030
+}
+
+.chatSearchSection input{
+  border: none;
+  padding: 6px 10px;
+  border-radius: 14px;
+}
+
+.chatSearchSection input:active{
+  outline: none;
+}
+
+.chatSearchSection img{
+  padding-top: 4px;
+}
+
+.chatSection{
+  position: relative;
+  background-color: #292B2C;
+}
+
+.friendName{
+  pointer-events: none;
+}
+
+.friendList{
+  background-color: #292B2C;
+}
+
+.friendNameSection{
+  color: white;
+  padding: 5px 8px;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+#messageBox{
+  display: flex;
+  flex-direction: column;
+}
+
+.myMessage{
+  color: white;
+  background-color: #c6c4a8;
+  align-self: flex-end;
+  padding: 8px 10px;
+  max-width: 60%;
+  margin: 6px 4px 6px 0px;
+  border-radius: 5px;
+}
+
+.friendMsg{
+  color: white;
+  background-color: grey;
+  align-self: flex-start;
+  max-width: 60%;
+  padding: 8px 10px;
+  margin: 6px 0px 6px 4px;
+  border-radius: 5px;
+}
+
+.loginPage, .signUpPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginSection, .signUpSection {
+  width: 40%;
+  max-width: 400px;
+}
+
+.headingSection {
+  margin-bottom: 5%;
+  font-size: larger;
+  text-align: center;
+}
+
+.redirectLink{
+  margin-top: 4%;
+}
+
+.loginLink, .signUpLink {
+  color: blue;
+}
+
+.loginLink:hover, .signUpLink:hover {
+  color: purple;
+}
+
+.pageTitle {
+  text-align: center;
+  color: #333;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formLabel {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); 
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.modal-content {
+  background-color: cadetblue;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    color: #fff;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.messageInputBox{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+#inputMessage{
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: #c8efef;
+  padding: 10px 12px;
+  box-sizing: border-box;
+}
+
+.friendInfo{
+  background-color: #496363;
+  color: white;
+  padding: 6px 15px;
+}
+
+.createGroup img, .startOneChat img, .logoutBtn img{
+  cursor: pointer;
+}
+
+.availableFrnds{
+  cursor: pointer;
+  border-bottom: 1px solid darkgrey;
+}
