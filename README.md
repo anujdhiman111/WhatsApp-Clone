@@ -13,7 +13,7 @@
 
 ## Setup Instructions
 - Clone the repository:
-  - [git clone](https://github.com/anujdhiman111/WhatsApp-Clone.git)
+  - (https://github.com/anujdhiman111/WhatsApp-Clone.git)
 
 - Install dependencies:
   - cd whatsapp-clone
